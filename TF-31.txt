@@ -15,10 +15,10 @@ terraform.tfvars --> same filename for terraform to consider
 command line
 env variables TF_VAR_<variable-name>
 
-1. command line
-2. tfvars
-3. env variables
-4. default values
+1. command line >> terraform plan -var <variable_name>=<value>
+2. tfvars >>create a file in the name of "terraform.tfvars"
+3. env variables >> export TF_VAR_<variable_name>=<value>
+4. default values >> in variable.tf file
 5. user prompt
 
 Conditions
