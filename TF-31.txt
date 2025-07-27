@@ -42,6 +42,8 @@ you can write count of resources you require under the resource definition
 
 interpolation
 =============
+"${}-hello"
+ Variable interpolation allows you to include a variable value within another string, ultimately, helping you build dynamic configuration values
 
 1. if you have list, go for count
 2. if you have map or set, go for for each
