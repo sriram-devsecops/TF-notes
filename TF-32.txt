@@ -13,8 +13,8 @@ dynamic ingress {
 
 functions
 ===============
-length
-toset
+length(var.instances)
+toset(var.instances)
 
 labels == tags
 
